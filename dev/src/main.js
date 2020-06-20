@@ -3,13 +3,15 @@ import App from './App.vue'
 import Router from 'vue-router';
 import Home from "./modules/Home";
 import About from "./modules/About";
+import Resume from "./modules/Resume";
 
 Vue.use(Router);
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/home', component: Home },
-    { path: '/about', component: About }
+    {path: '/', component: Home},
+    {path: '/home', component: Home},
+    {path: '/about', component: About},
+    {path: '/resume', component: Resume}
 ]
 
 const router = new Router({
@@ -19,7 +21,7 @@ const router = new Router({
 
 
 new Vue({
-  el: '#app',
-  render: h => h(App),
+    el: '#app',
+    render: h => h(App),
     router
 })

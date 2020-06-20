@@ -10,11 +10,15 @@
                 <div class="nav-menu">
                     <ul>
                         <li class="">
-                            <router-link to="/home"><i class="pe-7s-home"></i>Home
+                            <router-link to="/home">Home
                             </router-link>
                         </li>
                         <li class="">
-                            <router-link to="/about"><i class="pe-7s-home"></i>About
+                            <router-link to="/about">About
+                            </router-link>
+                        </li>
+                        <li class="">
+                            <router-link to="/resume">Resume
                             </router-link>
                         </li>
                     </ul>

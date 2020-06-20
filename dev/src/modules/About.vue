@@ -1,17 +1,14 @@
 <template>
     <div class="home">
-        <Nav></Nav>
         <img src = "./wallpaper2.png" class="bg-image"/>
         <h1 class="about">About</h1>
     </div>
 </template>
 
 <script>
-    import Nav from "./Nav";
     export default {
         name: 'about',
         path: '/about',
-        components: {Nav}
     }
 </script>
 
